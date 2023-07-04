@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primaryColor: #15b9f3;
+  --backgroundColor: white;
+  --textColor: #404040;
+}
+
+.navbar {
+  background-color: var(--primaryColor);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--textColor);
+  padding: 0px 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar {
+    height: 110px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .header {
+    padding: 0px 30px;
+    font-size: 2rem;
+  }
+}

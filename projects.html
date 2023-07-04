@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects Page</title>
+    <!-- font link-->
+    <link rel="stylesheet" href="./Fonts/fontawesome-free-6.4.0-web/" />
+    <!-- css link-->
+    <link rel="stylesheet" href="./cssStyles/generalStyles.css" />
+    <link rel="stylesheet" href="./cssStyles/projectsStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Grand+Hotel&family=Oswald:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--START OF NAVBAR-->
+    <nav class="navbar">
+      <h1 class="title">Welcome To My Website</h1>
+      <div class="header">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    <!--END OF NAVBAR-->
+    <!--PAGE TITLE-->
+    <h1 class="projectsHeader">Projects</h1>
+    <!--START OF PROJECT 1-->
+    <section class="project1Section">
+      <article class="project1Image">
+        <img src="./Images/nuwcImage.jpg" class="nuwcImage" />
+      </article>
+      <article class="project1Text">
+        <h2 class="mstHeader">Meeting Scheduler Tool for NUWC</h2>
+        <p class="nuwcText">
+          During my senior year at UMass Dartmouth, I was required to complete a
+          capstone project alongside 3 others. Our project was to create a
+          meeting scheduler tool for the Naval Undersea Warfare Center in
+          Newport, Rhode Island. Their current system at the time displayed all
+          meetings at once and had issues in regards to overlapping meetings.
+          Thus our task was to make a better system for them. The result of this
+          was the creation of a proto-website that NUWC would later upload into
+          their own internal network for security reasons. It utilized
+          Javascript, HTML/CSS and MySQL in order to handle the database that
+          would hold the meeting rooms and factors such as room features or
+          availability. My role in this project was part of the backend team
+          handling the MySQL tables but I also helped handle less technical
+          aspects like sprint reports and client meetings, all under the Agile
+          framework.
+        </p>
+      </article>
+    </section>
+    <!--END OF PROJECT 1-->
+    <section class="project2Section">
+      <article class="project2Image">
+        <img src="./Images/androidImage.jpg" class="androidImage" />
+      </article>
+      <article class="project2Text">
+        <h2 class="quizHeader">Android Music Quiz App</h2>
+        <p class="androidText">
+          This project is a music quiz app developed using Android Studio and
+          the features associated with it. This app asks users 10 questions
+          which will lead to a result at the end for their potential favorite
+          music genre. It utilizes a MySQLite database to keep track of the
+          genres that get a point based off of the users answer, using queries
+          in order to add points to a specific area of the table, compare the
+          numerical values in the table, return a value from the table based on
+          that comparison and truncate the table on app startup. The app also
+          utilizes other Android features such as calls to the Google Maps API
+          in order to open up Google Maps to a specific location based off the
+          result of the quiz. It can also pause and play videos that are locally
+          stored. It utilizes XML for the front-end and for onClick button
+          integration.
+        </p>
+      </article>
+    </section>
+  </body>
+</html>

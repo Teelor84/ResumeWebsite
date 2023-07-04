@@ -1,0 +1,99 @@
+:root {
+  --primaryColor: #15b9f3;
+  --backgroundColorGrey: #505050;
+  --backgroundColorBlk: #272727;
+  --textColor: #404040;
+  --textcolorwhite: white;
+}
+
+.projectsHeader {
+  padding-top: 100px;
+  text-align: center;
+  color: var(--textColor);
+  font-size: 100px;
+}
+
+/*START OF PROJECT 1*/
+.project1Section {
+  display: flex;
+  border: black solid;
+  width: 100%;
+  height: 100%;
+}
+
+.nuwcImage {
+  height: 350px;
+  padding-left: 100px;
+}
+
+.mstHeader {
+  text-align: center;
+  color: var(--textColor);
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+}
+.nuwcText {
+  padding-top: 30px;
+  padding-left: 100px;
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--textColor);
+}
+
+@media screen and (max-width: 500px) {
+  .project1Section {
+    display: block;
+  }
+  .nuwcText {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .project1Section {
+    display: block;
+  }
+  .nuwcText {
+    text-align: left;
+  }
+}
+
+/*END OF PROJECT 1*/
+
+/*START OF PROJECT 2*/
+.project2Section {
+  background-color: var(--backgroundColorGrey);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.androidImage {
+  border: solid red;
+  padding-left: 30px;
+  height: 300px;
+  width: 500px;
+}
+
+.project2Text {
+  border: solid green;
+  width: 100vw;
+}
+
+.quizHeader {
+  padding-right: 40px;
+  font-family: "Caveat", cursive;
+  color: var(--textcolorwhite);
+  display: block;
+  font-size: 40px;
+  text-align: center;
+}
+.androidText {
+  font-size: 23px;
+  text-align: left;
+  color: var(--textcolorwhite);
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*END OF PROJECT 2*/

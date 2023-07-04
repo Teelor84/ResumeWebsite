@@ -1,0 +1,68 @@
+/* START OF HOME PAGE CSS*/
+
+:root {
+  --primaryColor: #15b9f3;
+  --backgroundColor: white;
+  --textColor: #404040;
+}
+
+.introSection {
+  background-color: var(--backgroundColor);
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  padding-left: 100px;
+  display: flex;
+}
+
+.selfImage {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 30vw;
+  height: 70vh;
+  border: #15b9f3 solid;
+  border-radius: 30%;
+}
+.textSection {
+  margin-left: 100px;
+  /*border: red solid;*/
+  margin-top: 50px;
+  width: 50vw;
+}
+
+.descriptionHeader {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  color: var(--textColor);
+}
+.description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: var(--textColor);
+}
+
+@media screen and (max-width: 500px) {
+  .introSection {
+    display: block;
+  }
+  .selfImage {
+    width: 80%;
+  }
+  .textSection {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .introSection {
+    display: block;
+  }
+  .selfImage {
+    width: 80%;
+  }
+  .textSection {
+    width: 70%;
+  }
+}
+/*END OF HOME PAGE CSS*/
