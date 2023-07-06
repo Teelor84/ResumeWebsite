@@ -47,9 +47,12 @@
     display: block;
   }
   .selfImage {
+    margin-left: -50px;
+
     width: 80%;
   }
   .textSection {
+    margin-left: -20px;
     width: 70%;
   }
 }
