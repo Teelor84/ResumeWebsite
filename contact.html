@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Info</title>
-    <!-- font link-->
-    <link rel="stylesheet" href="./Fonts/fontawesome-free-6.4.0-web/" />
+    <!-- fontawesome link-->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.0-web/css/all.min.css"
+    />
     <!-- css link-->
     <link rel="stylesheet" href="./cssStyles/generalStyles.css" />
     <link rel="stylesheet" href="./cssStyles/contactStyles.css" />
@@ -25,5 +28,95 @@
         <a href="contact.html" class="nav-link">Contact</a>
       </div>
     </nav>
+    <h1 class="contactHeader">Contact Me</h1>
+    <div class="contactIntro">
+      <p>
+        As you can see this is my contact page. Here you can find information in
+        regards to contacting me. You can find my address if you would like to
+        send me any mail. Two phone numbers are present, one for my mobile phone
+        and another for my home phone. This is due to my location as I do not
+        have strong enough service in order to take phone calls on my mobile
+        phone but I can receive texts. There is also my email which is the best
+        way to contact me in regards to professional business. If you wish to
+        use this page directly you can fill out the form at the bottom and it
+        will also send an email to me.
+      </p>
+    </div>
+    <section class="contactSection">
+      <!--START OF ADDRESS-->
+      <article class="contactInfo">
+        <h4 class="contactType">
+          <span class="contactIcon">
+            <i class="fa-solid fa-house"></i>
+          </span>
+          Address
+        </h4>
+        <h4 class="contactText">
+          117 McBride Rd
+          <br />
+          Wales, MA, 01081
+        </h4>
+      </article>
+      <!--END OF ADDRESS-->
+      <!--START OF PHONE NUMBER SECTION-->
+      <article class="contactInfo">
+        <h4 class="contactType">
+          <span class="contactIcon">
+            <i class="fa-solid fa-phone"></i>
+          </span>
+          Phone Numbers
+        </h4>
+        <h4 class="contactText">
+          Mobile: 978-761-7604
+          <br />
+          Homeline: 413-267-4732
+        </h4>
+      </article>
+      <!--END OF PHONE NUMBER SECTION-->
+      <!--START OF EMAIL SECTION-->
+      <article class="contactInfo">
+        <h4 class="contactType">
+          <span class="contactIcon">
+            <i class="fa-regular fa-envelope"></i>
+          </span>
+          Email
+        </h4>
+        <a href="mailto: tylerpourmand@yahoo.com" class="contactText"
+          >tylerpourmand@yahoo.com</a
+        >
+      </article>
+      <!--END OF EMAIL SECTION-->
+      <!--START OF CONTACT FORM-->
+      <article class="contactForm">
+        <h3>Contact Form</h3>
+        <form>
+          <div class="formSection">
+            <input
+              type="text"
+              placeholder="Name"
+              class="formFillout"
+              name="name"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="formFillout"
+              name="email"
+            />
+            <textarea
+              name="message"
+              class="formFillout"
+              placeholder="Your Message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button type="submit" class="submitFormButton">
+              Submit Message
+            </button>
+          </div>
+        </form>
+      </article>
+      <!--END OF EMAIL SECTION-->
+    </section>
   </body>
 </html>
